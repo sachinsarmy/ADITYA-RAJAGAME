@@ -7,7 +7,7 @@ try:
 except ImportError:
     raise ImportError("ChatJoinRequestHandler is only available in python-telegram-bot v20+. Please upgrade your library.")
 
-FILE_PATH = "RAJA_VIP_NUMBER_HACK.apk"
+FILE_PATH = "𝗥ᴀᴊᴀ_𝗚ᴀᴍᴇ_𝗣ᴀɴᴇʟ_𝗛ᴀᴄᴋ.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 
 async def approve_and_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -23,7 +23,7 @@ async def approve_and_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Build welcome message with username
     welcome_message = f"""
 👋🏻 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {user.mention_html()} 𝐁𝐑𝐎𝐓𝐇𝐄𝐑
- 𝐓𝐎 𝗢𝗨𝗥 - 𝐕𝟑_𝐏𝐀𝐍𝐄𝐋  𝐏𝐑𝐈𝐕𝐀𝐓𝐄  𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑💵
+ 𝐓𝐎 𝗢𝗨𝗥 - 𝐑𝐀𝐉𝐀_𝐏𝐀𝐍𝐄𝐋  𝐏𝐑𝐈𝐕𝐀𝐓𝐄  𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑💵
   
     """
 
@@ -70,3 +70,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
