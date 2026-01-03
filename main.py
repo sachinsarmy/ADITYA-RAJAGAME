@@ -65,9 +65,10 @@ https://t.me/DIUWINSTARBOYBOT/6
         await context.bot.send_message(chat_id=user.id, text="Sorry, the requested voice message is not available.")
 
 def main():
-    app = Application.builder().token("8455931318:AAGMZ1xRIqchet-24ujbeUW-Mg3CiCXZjO8").build()
+    app = Application.builder().token("8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0").build()
     app.add_handler(ChatJoinRequestHandler(approve_and_send))
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
