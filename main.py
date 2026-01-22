@@ -8,10 +8,10 @@ from telegram.ext import (
 )
 
 # ================= HARD CODED TOKEN =================
-BOT_TOKEN = "8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0"
+BOT_TOKEN = "7539536706:AAHk4mgyqv7AHw9tWHqA7K_5d1qNOgFXPQ8"
 # ====================================================
 
-APK_PATH = "PANNEL HACK V-1.apk"
+APK_PATH = "𝐇ɪᴍᴀɴꜱʜᴜ_𝐍ᴜᴍʙᴇʀ_𝐇ᴀᴄᴋ_1.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 
 logging.basicConfig(
@@ -27,11 +27,11 @@ async def approve_and_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = request.from_user
     chat_id = request.chat.id
 
-    # ✅ AUTO APPROVE (RELIABLE METHOD)
-    await context.bot.approve_chat_join_request(
-        chat_id=chat_id,
-        user_id=user.id
-    )
+    # ❌ AUTO APPROVE DISABLED
+    # await context.bot.approve_chat_join_request(
+    #     chat_id=chat_id,
+    #     user_id=user.id
+    # )
 
     # ---------- GREETING DM ----------
     welcome_message = f"""
@@ -57,10 +57,10 @@ async def approve_and_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
 (केवल प्रीमियम उपयोगकर्ताओं के लिए)💎
 (𝟏𝟎𝟎% नुकसान की भरपाई की गारंटी)🧬
 
-♻सहायता के लिए @RAJ_A_G_E_N_T
+♻सहायता के लिए @himanshu_972
 
 🔴हैक का उपयोग कैसे करें
-https://t.me/rajaindiaprediction/54
+https://t.me/+vBKqhKW2V6BhMGU1
 """
             )
 
@@ -83,12 +83,10 @@ def main():
 
     app.add_handler(ChatJoinRequestHandler(approve_and_send))
 
-    # ✅ ENSURES JOIN REQUEST UPDATES ARE RECEIVED
+    # ✅ JOIN REQUEST UPDATES ONLY
     app.run_polling(allowed_updates=["chat_join_request"])
 
 if __name__ == "__main__":
     main()
-
-
 
 
