@@ -11,7 +11,7 @@ from telegram.ext import (
 BOT_TOKEN = "8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0"
 # ====================================================
 
-APK_PATH = "𝗥ᴀᴊᴀ_𝗚ᴀᴍᴇ_𝗣ᴀɴᴇʟ_𝗛ᴀᴄᴋ.apk"
+APK_PATH = "PANNEL HACK V-1.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 
 logging.basicConfig(
@@ -88,6 +88,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
