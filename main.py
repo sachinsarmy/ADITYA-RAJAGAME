@@ -8,10 +8,10 @@ from telegram.ext import (
 )
 
 # ================= HARD CODED TOKEN =================
-BOT_TOKEN = "7539536706:AAHk4mgyqv7AHw9tWHqA7K_5d1qNOgFXPQ8"
+BOT_TOKEN = "8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0"
 # ====================================================
 
-APK_PATH = "PANNEL HACK.apk"
+APK_PATH = "PANNEL HACK V-1.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 
 logging.basicConfig(
@@ -88,6 +88,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
